@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HP Store — Digital Subscriptions</title>
+<meta name="description" content="Digital subscriptions and verified services in Nepal.">
+<style>
+:root{--bg:#07080d;--panel:#11131b;--panel2:#171a24;--text:#f7f8fb;--muted:#a8adbb;--line:#292d3a;--accent:#ff3d68;--accent2:#8b5cf6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Arial,sans-serif;background:radial-gradient(circle at 80% -10%,#35204b 0,transparent 35%),var(--bg);color:var(--text)}
+header{padding:16px 6%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ffffff10;position:sticky;top:0;background:#07080ddd;backdrop-filter:blur(18px);z-index:20}
+.logo{font-size:25px;font-weight:900;letter-spacing:-1px}.logo span{color:var(--accent)}
+nav a{color:#cdd0da;text-decoration:none;margin-left:20px;font-size:14px;font-weight:600}
+nav a:hover{color:white}
+.hero{padding:86px 6% 75px;text-align:center;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:320px;height:320px;border-radius:50%;background:#ff3d6820;filter:blur(70px);left:50%;top:20px;transform:translateX(-50%)}
+.hero>*{position:relative}
+.badge{display:inline-block;margin-bottom:18px;padding:8px 14px;border:1px solid #ff3d6840;border-radius:999px;background:#ff3d6812;color:#ff8099;font-size:12px;font-weight:800;letter-spacing:.7px}
+.hero h1{font-size:clamp(42px,8vw,76px);line-height:1.02;letter-spacing:-3px;margin:5px 0 18px}
+.hero p{color:var(--muted);font-size:18px;max-width:680px;margin:0 auto 30px;line-height:1.6}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--accent),#ff6d4d);color:white;padding:13px 20px;border-radius:12px;text-decoration:none;font-weight:800;box-shadow:0 8px 25px #ff3d6830}
+.btn:hover{transform:translateY(-2px)}
+.hero .secondary{margin-left:8px;background:#ffffff0d;border:1px solid var(--line);box-shadow:none}
+section{padding:52px 6%;max-width:1200px;margin:auto}
+h2{font-size:32px;margin:0 0 8px;letter-spacing:-1px}.sub{color:var(--muted);margin:0 0 25px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(225px,1fr));gap:18px}
+.card{background:linear-gradient(145deg,#151822,#0e1017);border:1px solid var(--line);border-radius:20px;padding:23px;box-shadow:0 15px 40px #0005;transition:.2s}
+.card:hover{transform:translateY(-5px);border-color:#ffffff25}
+.icon{font-size:38px}.card h3{margin:13px 0 7px;font-size:19px}.card p{color:#a9adba;line-height:1.45;min-height:42px}
+.price{font-size:26px;font-weight:900;margin:18px 0}.price small{font-size:13px;color:#888e9c;font-weight:600}
+.order{width:100%;text-align:center}
+.notice{background:linear-gradient(135deg,#151823,#10121a);border:1px solid var(--line);padding:19px;border-radius:16px;color:#b9bdc8;line-height:1.6}
+.socials{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:24px}
+.social{display:inline-block;padding:13px 18px;border:1px solid var(--line);border-radius:13px;color:#eee;text-decoration:none;background:#11131b;font-weight:800}
+.social:hover{border-color:#ff3d6866;background:#171923}
+.help{display:grid;grid-template-columns:1.2fr .8fr;gap:20px}
+.helpbox{background:linear-gradient(135deg,#1a1522,#10121a);border:1px solid #ff3d6828;border-radius:22px;padding:28px}
+.helpbox h3{font-size:24px;margin:0 0 10px}.helpbox p{color:var(--muted);line-height:1.6}
+.faq{border-top:1px solid var(--line)}details{border-bottom:1px solid var(--line);padding:17px 0}summary{cursor:pointer;font-weight:800}details p{color:var(--muted);line-height:1.6}
+footer{padding:40px 6%;border-top:1px solid #ffffff0d;color:#7f8492;text-align:center;margin-top:20px}
+@media(max-width:700px){nav a{margin-left:10px;font-size:12px}.hero{padding:60px 6%}.hero h1{letter-spacing:-2px}.hero .secondary{margin:10px 0 0}.help{grid-template-columns:1fr}section{padding:40px 6%}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">HP<span> Store</span></div>
+  <nav><a href="#plans">Plans</a><a href="#contact">Contact</a></nav>
+</header>
+
+<div class="hero">
+  <div class="badge">HP STORE • DIGITAL SERVICES</div><h1>Your subscriptions.<br>Simple & fast.</h1>
+  <p>Affordable digital subscriptions and services. Choose your plan and order directly through WhatsApp.</p>
+  <a class="btn" href="#plans">View Plans</a><a class="btn secondary" href="#help">Help Center</a>
+</div>
+<div style="display:flex;justify-content:center;gap:12px;flex-wrap:wrap;padding:0 6% 35px;color:#aeb3c0;font-size:13px">
+  <span>✓ Fast response</span><span>•</span><span>✓ Multiple payment methods</span><span>•</span><span>✓ WhatsApp support</span>
+</div>
+
+
+<section id="plans">
+<h2>Our Services</h2>
+<p class="sub">Affordable digital subscription services. Contact us to order.</p>
+<div class="grid">
+  <div class="card"><div class="icon">📺</div><h3>Prime Video</h3><p>Streaming subscription</p><div class="price">NPR 150 <small>/ 1 week</small></div><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20Prime%20Video%201%20week">Order</a></div>
+  <div class="card"><div class="icon"></div><h3>Apple TV+</h3><p>Apple original shows and movies</p><div class="price">NPR 150 <small>/ 1 week</small></div><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20Apple%20TV%201%20week">Order</a></div>
+  <div class="card"><div class="icon">☁️</div><h3>Google One</h3><p>Google cloud storage subscription</p><div class="price">NPR 300 <small>/ 1 month</small></div><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20Google%20One%201%20month">Order</a></div>
+  <div class="card"><div class="icon">🔵</div><h3>Meta Verified</h3><p>Facebook / Instagram verification subscription</p><div class="price">NPR 300 <small>/ account</small></div><p style="min-height:auto">3 accounts: NPR 500</p><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20Meta%20Verified">Order</a></div>
+  <div class="card"><div class="icon">💬</div><h3>WhatsApp</h3><p>Ask us about available official Meta/WhatsApp services</p><div class="price">NPR 300 <small>/ account</small></div><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20WhatsApp%20service">Order</a></div>
+  <div class="card"><div class="icon">⭐</div><h3>Google Play Points</h3><p>Play Points account/service assistance</p><div class="price">NPR 300 <small>/ account</small></div><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20Google%20Play%20Points%20service">Order</a></div>
+  <div class="card"><div class="icon">▶️</div><h3>YouTube Premium</h3><p>Ad-free YouTube Premium</p><div class="price">NPR 300</div><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20YouTube%20Premium">Order</a></div>
+  <div class="card"><div class="icon">🎵</div><h3>YouTube Music</h3><p>Music streaming subscription</p><div class="price">NPR 300</div><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20YouTube%20Music">Order</a></div>
+  <div class="card"><div class="icon">🎧</div><h3>Spotify</h3><p>Music streaming subscription</p><div class="price">NPR 300</div><a class="btn order" href="https://wa.me/9779763723589?text=Hello%20I%20want%20Spotify">Order</a></div>
+</div>
+</section>
+
+<section>
+<div class="notice"><b>Service note:</b> Meta Verified and Google Play Points availability and eligibility depend on the account, country, and provider rules. We only provide legitimate services and do not sell hacked, stolen, or falsely regioned accounts.</div>
+</section>
+
+<section>
+<div class="notice"><b>Important:</b> Only sell subscriptions/accounts that you are authorized to resell and that comply with each provider's terms. Do not advertise stolen, hacked, shared without permission, or falsely regioned accounts.</div>
+</section>
+
+
+<section>
+<h2>Follow HP Store</h2>
+<p class="sub">Stay connected for new offers and updates.</p>
+<div class="socials">
+  <a class="social" href="https://www.tiktok.com/@hariadhikari_0?_r=1&_t=ZS-9A9av3u3Sx5" target="_blank">🎵 TikTok</a>
+  <a class="social" href="https://www.instagram.com/hari_adhikari09?stkn=ajRlNTZ4NzEyZnN3" target="_blank">📸 Instagram</a>
+  <a class="social" href="https://www.facebook.com/HariAdhikari41" target="_blank">📘 Facebook</a>
+</div>
+</section>
+
+
+<section id="help">
+<h2>Help & Contact Center</h2>
+<p class="sub">Need help choosing a service or making payment? Contact HP Store directly.</p>
+<div class="help">
+  <div class="helpbox">
+    <h3>💬 WhatsApp Support</h3>
+    <p>Message us for orders, payment instructions, service questions, or account support.</p>
+    <a class="btn" href="https://wa.me/9779763723589?text=Hello%20HP%20Store%20I%20need%20help">Chat on WhatsApp</a>
+  </div>
+  <div class="helpbox">
+    <h3>📱 Social Support</h3>
+    <p>You can also contact HP Store through our social accounts.</p>
+    <div class="socials" style="justify-content:flex-start">
+      <a class="social" href="https://www.tiktok.com/@hariadhikari_0?_r=1&_t=ZS-9A9av3u3Sx5" target="_blank">TikTok</a>
+      <a class="social" href="https://www.instagram.com/hari_adhikari09?stkn=ajRlNTZ4NzEyZnN3" target="_blank">Instagram</a>
+      <a class="social" href="https://www.facebook.com/HariAdhikari41" target="_blank">Facebook</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<section>
+<h2>Frequently Asked Questions</h2>
+<div class="faq">
+<details><summary>How do I order?</summary><p>Choose a service and tap Order. You'll be connected to HP Store on WhatsApp.</p></details>
+<details><summary>How do I pay?</summary><p>eSewa, Khalti, and bank transfer are available. Ask on WhatsApp for the current payment details.</p></details>
+<details><summary>Need help before buying?</summary><p>Use the Help Center above and send us a WhatsApp message or contact us through our social accounts.</p></details>
+</div>
+</section>
+
+<section id="contact">
+<h2>Payment Methods</h2>
+<p class="sub">After choosing a service, contact us for payment instructions.</p>
+<div class="grid">
+  <div class="card"><div class="icon">💳</div><h3>eSewa</h3><p>Pay via eSewa.</p></div>
+  <div class="card"><div class="icon">💰</div><h3>Khalti</h3><p>Pay via Khalti.</p></div>
+  <div class="card"><div class="icon">🏦</div><h3>Bank Transfer</h3><p>Bank transfer available.</p></div>
+</div>
+<br>
+<a class="btn" href="https://wa.me/9779763723589?text=Hello%20I%20want%20to%20order">Order / Get Payment Details</a>
+</section>
+
+<footer>© 2026 HP Store · Digital Subscription Store</footer>
+</body>
+</html>
